@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/manage-money/static/css/main.94de71cd.css",
+    "main.js": "/manage-money/static/js/main.03133d58.js",
+    "static/js/787.8aaf5901.chunk.js": "/manage-money/static/js/787.8aaf5901.chunk.js",
+    "index.html": "/manage-money/index.html",
+    "main.94de71cd.css.map": "/manage-money/static/css/main.94de71cd.css.map",
+    "main.03133d58.js.map": "/manage-money/static/js/main.03133d58.js.map",
+    "787.8aaf5901.chunk.js.map": "/manage-money/static/js/787.8aaf5901.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94de71cd.css",
+    "static/js/main.03133d58.js"
+  ]
+}
