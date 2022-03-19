@@ -238,6 +238,7 @@ const SpendingManager=props=>{
     { name: 'Group A', value:1 },
     { name: 'Group B', value: 0 },
    ]
+   console.log(data);
     return(
         <div>
              <div className="w-full bg-white rounded-2xl p-8 hidden lg:block">
@@ -290,7 +291,7 @@ const SpendingManager=props=>{
                     <div className='relative z-0' >
                         <PieChart width={100} height={100}>
                             <Pie
-                            data={data}
+                            data={data[0].value===0?tempMoney:data}
                             cx={50}
                             cy={45}
                             innerRadius={25}
@@ -415,8 +416,6 @@ const TransactionHistory=props=>{
         props.getStatusTransaction(true);
     }
     var newTrans=transactionHistory.reverse().slice(0,6);
-    console.log(transactionHistory);
-    console.log(newTrans);
     return(
         <div className='w-full rounded-xl bg-white p-5 mt-5' >
             <h2 className='text-slate-700 font-bold mt-3 mb-5'>GIAO DỊCH MỚI NHẤT</h2>

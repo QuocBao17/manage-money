@@ -136,7 +136,7 @@ const PopupTransaction =(props)=>{
         }
     }
     return (
-        <div className={`${addTransaction?'scale-setting-1':'scale-setting-0'} absolute w-full top-[300px] p-5 z-50 md:w-1/2 md:left-[25%] lg:w-1/3 lg:left-[35%] rounded-lg`}>
+        <div className={`${addTransaction?'scale-setting-1':'scale-setting-0'} absolute w-full top-[150px] xl:top-[300px] p-5 z-50 md:w-1/2 md:left-[25%] lg:w-1/3 lg:left-[35%] rounded-lg`}>
             <div className="bg-hover p-5">
                 <p className="font-bold text-slate-700">THÊM GIAO DỊCH</p>
                 <div className="p-2 my-5 flex flex-col">
