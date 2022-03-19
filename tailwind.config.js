@@ -7,12 +7,13 @@ module.exports = {
       colors:{
         'main':'#3D3248',
         'pink':'#F4365C',
-        'purple':'#8B4FE4',
         'gray':'#EAEAF7',
         'gray-100':'#ECEAEF',
         'gray-200':'#FEFAF2',
         'hover':'#E2E4F4',
-        
+        'blue':'#183153',
+        'blue-100':'#146EBE',
+        'purple':'#8B4FE4'
       },
       borderRadius:{
         '50':'50%',

@@ -5,10 +5,20 @@
   .show-popup {
     @apply opacity-100 visible duration-700 scale-100
   }
-
-
+  .placeholder::placeholder{
+      @apply text-xs  ;
+  }
+  .clip-path{
+    clip-path: polygon(0 7%, 86% 7%, 90% 0, 95% 7%, 100% 7%, 100% 100%, 0 100%);
+  }
   .unshow-popup{
     @apply opacity-0 invisible duration-700 scale-0
+  }
+  .scale-setting-0{
+    @apply scale-y-0 duration-700 origin-top;
+  }
+  .scale-setting-1{
+    @apply scale-y-100 duration-700 origin-top ;
   }
 }
 body {

@@ -1,13 +1,15 @@
 import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore"
 const firebaseConfig = {
-  apiKey: "AIzaSyBgI0MBDoLPQwFkptZ3rlmNC3ILtt5B4S8",
-  authDomain: "manage-money-1b762.firebaseapp.com",
-  projectId: "manage-money-1b762",
-  storageBucket: "manage-money-1b762.appspot.com",
-  messagingSenderId: "385855249603",
-  appId: "1:385855249603:web:c1d5920d8699e931e2d676",
-  measurementId: "G-18VEDN5X2B"
+  apiKey: "AIzaSyD2X-Zh-PisB0aKO3NuTi-PPxT2fTfHBiU",
+  authDomain: "money-db-5305b.firebaseapp.com",
+  projectId: "money-db-5305b",
+  storageBucket: "money-db-5305b.appspot.com",
+  messagingSenderId: "413204780038",
+  appId: "1:413204780038:web:dd41e6b6cb46391ecedf87",
+  measurementId: "G-N899WBYK9J"
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
+export const database = getFirestore();

@@ -22,7 +22,7 @@ const WellcomePage=()=>{
                 <div className="my-10 flex justify-between w-4/5 xl:w-3/5 mx-auto 2xl:w-2/3">
                         {
                             listButton.map((item,index)=>(
-                            <Link to={item.path}> <button className="py-2 px-8 2xl:py-5 2xl:px-10 bg-white rounded-xl shadow-md hover:bg-violet-400 hover:text-white duration-700">{item.display}</button></Link>
+                            <Link key={index} to={item.path}> <button className="py-2 px-8 2xl:py-5 2xl:px-10 bg-white rounded-xl shadow-md hover:bg-blue hover:text-white duration-700">{item.display}</button></Link>
                             ))
                         }
                 </div>
